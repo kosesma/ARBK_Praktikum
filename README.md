@@ -1,3 +1,7 @@
+# Autor
+- Erstellt von: Esma KOS
+- Hochschule: FH Aachen
+
 Dieses Repository enthält die Lösungen für die Praktikumsaufgaben im Modul Architektur von Rechnersystemen (ARBKVS). Die Aufgaben wurden in C implementiert und für das ATmega328P-Board der FH Aachen entwickelt.
 
 Die Implementierung umfasst die Ansteuerung von Peripheriegeräten wie LED-Bargraph, 7-Segment-Anzeigen, Tastern und dem Analog-Digital-Wandler (ADC).
