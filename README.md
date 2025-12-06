@@ -16,7 +16,7 @@ In dieser Aufgabe wurde ein einfaches Lauflicht (Running Light) implementiert, d
 * **Beschleunigung:** Bei jedem Richtungswechsel wird die Verzögerungszeit (`delay_ms`) mit dem Faktor `0.9` multipliziert, sodass das Licht immer schneller wird.
 * **Abbruchbedingung:** Wenn die Verzögerungszeit unter 2 ms fällt, leuchten alle LEDs auf und das Programm kehrt in den Wartezustand zurück.
 
-* ![Demo](Task2.gif)
+* ![Demo](Task2.GIF)
 
  ## Aufgabe 3: Lauflicht-Spiel (`task3.c`)
 
@@ -29,7 +29,7 @@ Aufbauend auf Aufgabe 2 wurde ein Reaktionsspiel entwickelt. Ziel ist es, die La
     * *Zu spät:* Verpasst der Spieler den Zeitpunkt und das Licht "läuft aus dem Bargraph" (`GAME_OVER_OUT_OF_BOUNDS`), ist das Spiel verloren.
 3.  **Level-System:** Bei jedem erfolgreichen Richtungswechsel wird das Level erhöht und die Geschwindigkeit gesteigert.
 4.  **Anzeige:** Das aktuelle Level wird live auf der **7-Segment-Anzeige** dargestellt.
-* ![Demo](Task3.gif)
+* ![Demo](Task3.GIF)
 
 ## Aufgabe 4: Analog-Digital-Wandlung (`task4.c`)
 
@@ -40,4 +40,4 @@ In dieser Aufgabe wird der Mikrocontroller als digitales Voltmeter konfiguriert.
 * **LED-Bargraph:** Visualisierung des Pegels (0 LEDs = 0V, 5 LEDs = 2.5V, 10 LEDs = 5V).
 * **7-Segment-Anzeige:** Ausgabe der exakten Spannung als Gleitkommazahl (z. B. `3.5`) mit korrekter kaufmännischer Rundung.
 
-* * ![Demo](Task4.gif)
+* * ![Demo](Task4.GIF)
